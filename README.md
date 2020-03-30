@@ -1,3 +1,21 @@
+WT - FeedHenry JavaScript SDK
+========================
+
+## Pull Requests
+
+Be sure for each pull request that the base branch is WT and not the original FeedHenry repo.
+
+## Version Branches
+
+Version branches (ex. version-3.0.2) should be based off of the main develop branch. After development on the version is complete, tag the branch and merge it back into develop.
+
+## Release Branches
+
+To release a new version:
+1. Create a branch off of the current version branch (ex. release-3.0.2).
+2. Run `npm run build`.
+3. Force add the entire `dist` folder and any changes to the `libs` folder. (To make this easier, remove `dist` and `libs` from the .gitignore before adding files)
+
 FeedHenry JavaScript SDK
 ========================
 [![Build Status](https://travis-ci.org/feedhenry/fh-js-sdk.svg?branch=use-travis-ci)](https://travis-ci.org/feedhenry/fh-js-sdk)
