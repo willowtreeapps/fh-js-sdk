@@ -14,7 +14,7 @@ Version branches (ex. version-3.0.2) should be based off of the main develop bra
 To release a new version:
 1. Create a branch off of the current version branch (ex. release-3.0.2).
 2. Run `npm run build`.
-3. Force add the entire `dist` folder and any changes to the `libs` folder. (To make this easier, remove `dist` and `libs` from the .gitignore before adding files)
+3. Force add the entire `dist` folder. (To make this easier, remove `dist` from the .gitignore before adding files)
 
 FeedHenry JavaScript SDK
 ========================
